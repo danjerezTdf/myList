@@ -14,7 +14,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: 'FJzYKNxkCrVWcDXC9p43',
       database: 'bgzybbn4w4pdzueqnica',
       entities: ['dist/**/**/**.entity{.ts,.js}'],
-      synchronize: true,
+      synchronize: false,
     }),
     ListModule,
   ],
